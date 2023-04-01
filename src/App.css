@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+body {
+  background-color: #000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 60%;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navbar {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  background-color: #00050d;
+  font-size: 1.1rem;
+  padding: 0;
+}
+
+.user-icon {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.search-icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.name-of-user {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.nav-link:hover {
+  background-color: #2d3436;
+}
+
+#active {
+  border-bottom: 4px solid #fff;
+}
+
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    justify-content: space-around;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .navbar {
+    font-weight: normal;
   }
-  to {
-    transform: rotate(360deg);
+
+  .navbar-toggler {
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .name-of-user {
+    display: none;
+  }
+
+  .navbar-collapse {
+    order: 3 !important;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler:focus {
+    color: #000;
+  }
+
+  .navbar-text {
+    font-size: 1.25rem;
   }
 }
