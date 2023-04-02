@@ -213,6 +213,7 @@ body {
   display: flex;
 }
 
+
 .movie-col:hover {
   transform: scale(1.2);
   position: relative;
@@ -221,6 +222,8 @@ body {
 
 .movie-col>img {
   border-radius: 1rem;
+  width: 224px!important;
+  height: 126px !important;
   object-fit: cover;
 }
 
@@ -240,6 +243,10 @@ body {
 
 .title-text{
   color: #fff;
+}
+
+.recommended > .carousel-control-next-icon{
+  display: block;
 }
 
 
@@ -303,6 +310,7 @@ body {
   .swiper {
     margin-left: 1rem !important;
     display: none;
+    margin-right: 0.3rem !important;
   }
 
   .swiper-slide{
@@ -329,4 +337,10 @@ body {
     letter-spacing: 0.35px;
   }
 
+  .movie-col>img {
+    border-radius: 1rem;
+    width: 198px !important;
+    max-height: 111px !important;
+    object-fit: cover !important;
+  }
 }

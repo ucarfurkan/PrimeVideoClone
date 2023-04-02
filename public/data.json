@@ -4,129 +4,187 @@
             "id": 1,
             "title": "Ghostbusters",
             "type": "Movie",
-            "category": ["Comedy"],
+            "category": [
+                "Comedy"
+            ],
             "isSpotlight": true,
-            "spotlightImgPath": "./images/Ghostbusters.jpg"
+            "spotlightImgPath": "./images/Ghostbusters.jpg",
+            "award": false
         },
         {
             "id": 2,
             "title": "The Boys",
             "type": "TV series",
-            "category": ["Action"],
+            "category": [
+                "Action"
+            ],
             "isSpotlight": true,
-            "spotlightImgPath": "./images/The Boys.jpg"
+            "spotlightImgPath": "./images/The Boys.jpg",
+            "award": false
         },
         {
             "id": 3,
             "title": "The Marvelous Mrs. Maisel",
             "type": "TV series",
-            "category": ["Comedy"],
+            "category": [
+                "Comedy"
+            ],
             "isSpotlight": false,
-            "spotlightImgPath": "./images/The Marvelous Mrs. Maisel.jpg"
+            "spotlightImgPath": "./images/The Marvelous Mrs. Maisel.jpg",
+            "award": true
         },
         {
             "id": 4,
             "title": "The Handmaid's Tale",
             "type": "TV series",
-            "category": ["Drama"],
+            "category": [
+                "Drama"
+            ],
             "isSpotlight": true,
-            "spotlightImgPath": "./images/The Handmaid's Tale.jpg"
+            "spotlightImgPath": "./images/The Handmaid's Tale.jpg",
+            "award": true
         },
         {
             "id": 5,
             "title": "Fleabag",
             "type": "TV series",
-            "category": ["Comedy"],
+            "category": [
+                "Comedy"
+            ],
             "isSpotlight": true,
-            "spotlightImgPath": "./images/Fleabag.jpg"
+            "spotlightImgPath": "./images/Fleabag.jpg",
+            "award": false
         },
         {
             "id": 6,
             "title": "Goliath",
             "type": "TV series",
-            "category": ["Drama"],
+            "category": [
+                "Drama"
+            ],
             "isSpotlight": false,
-            "spotlightImgPath": "./images/Goliath.jpg"
+            "spotlightImgPath": "./images/Goliath.jpg",
+            "award": false
         },
         {
             "id": 7,
             "title": "Good Omens",
             "type": "TV series",
-            "category": ["Comedy", "Fantasy"],
+            "category": [
+                "Comedy",
+                "Fantasy"
+            ],
             "isSpotlight": false,
-            "spotlightImgPath": "./images/Good Omens.jpg"
+            "spotlightImgPath": "./images/Good Omens.jpg",
+            "award": false
         },
         {
             "id": 8,
             "title": "Hanna",
             "type": "TV series",
-            "category": ["Action", "Drama"],
+            "category": [
+                "Action",
+                "Drama"
+            ],
             "isSpotlight": false,
-            "spotlightImgPath": "./images/Hanna.jpg"
+            "spotlightImgPath": "./images/Hanna.jpg",
+            "award": false
         },
         {
             "id": 9,
             "title": "Homecoming",
             "type": "TV series",
-            "category": ["Drama", "Mystery"],
+            "category": [
+                "Drama",
+                "Mystery"
+            ],
             "isSpotlight": false,
-            "spotlightImgPath": "./images/Homecoming.jpg"
+            "spotlightImgPath": "./images/Homecoming.jpg",
+            "award": false
         },
         {
             "id": 10,
             "title": "Jack Ryan",
             "type": "TV series",
-            "category": ["Action", "Thriller"],
+            "category": [
+                "Action",
+                "Thriller"
+            ],
             "isSpotlight": false,
-            "spotlightImgPath": "./images/Jack Ryan.jpg"
+            "spotlightImgPath": "./images/Jack Ryan.jpg",
+            "award": false
         },
         {
             "id": 11,
             "title": "Modern Love",
             "type": "TV series",
-            "category": ["Comedy", "Romance"],
+            "category": [
+                "Comedy",
+                "Romance"
+            ],
             "isSpotlight": false,
-            "spotlightImgPath": "./images/Modern Love.jpg"
+            "spotlightImgPath": "./images/Modern Love.jpg",
+            "award": false
         },
         {
             "id": 12,
             "title": "Mozart in the Jungle",
             "type": "TV series",
-            "category": ["Comedy", "Drama"],
+            "category": [
+                "Comedy",
+                "Drama"
+            ],
             "isSpotlight": true,
-            "spotlightImgPath": "./images/Mozart in the Jungle.jpg"
+            "spotlightImgPath": "./images/Mozart in the Jungle.jpg",
+            "award": true
         },
         {
             "id": 13,
             "title": "Patriot",
             "type": "TV series",
-            "category": ["Drama", "Thriller"],
+            "category": [
+                "Drama",
+                "Thriller"
+            ],
             "isSpotlight": false,
-            "spotlightImgPath": "./images/Patriot.jpg"
+            "spotlightImgPath": "./images/Patriot.jpg",
+            "award": false
         },
         {
             "id": 14,
             "title": "Sneaky Pete",
             "type": "TV series",
-            "category": ["Crime", "Drama"],
+            "category": [
+                "Crime",
+                "Drama"
+            ],
             "isSpotlight": true,
-            "spotlightImgPath": "./images/Sneaky Pete.png"
+            "spotlightImgPath": "./images/Sneaky Pete.png",
+            "award": true
         },
         {
             "id": 15,
             "title": "The Crown",
             "isSpotlight": true,
             "spotlightImgPath": "./images/The Crown.jpg",
-            "type": "TV Series",
-            "category": ["Drama", "Historical Fiction"]
+            "type": "TV series",
+            "category": [
+                "Drama",
+                "Historical Fiction"
+            ],
+            "award": true
         },
         {
             "id": 16,
             "title": "The Man in the High Castle",
             "isSpotlight": false,
             "spotlightImgPath": "./images/The Man in the High Castle.jpg",
-            "type": "TV Series",
-            "category": ["Drama", "Alternate History"]
+            "type": "TV series",
+            "category": [
+                "Drama",
+                "Alternate History"
+            ],
+            "award": false
         }
     ]
 }

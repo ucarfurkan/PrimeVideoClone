@@ -17,7 +17,8 @@ function MobileMovies(props) {
                 {data.map((movie) => {
                     return (
                         <SwiperSlide key={movie.id}>
-                            <img src={movie.spotlightImgPath}></img>
+                            <div className='movie-col'><img src={movie.spotlightImgPath}></img>
+                            </div>
                         </SwiperSlide>)
                 })}
             </Swiper>

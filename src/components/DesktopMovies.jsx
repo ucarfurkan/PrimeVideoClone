@@ -3,7 +3,7 @@ import { Carousel, Row, Col } from 'react-bootstrap';
 
 function DesktopMovies(props) {
     const data = props.datas;
-
+    console.log(data);
     const images = data.map(item => item.spotlightImgPath);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [itemsPerSlide, setItemsPerSlide] = useState(5);
@@ -40,7 +40,6 @@ function DesktopMovies(props) {
                                 <img
                                     src={image}
                                     alt={`Image ${index + 1}`}
-                                    style={{ maxWidth: "100%", maxHeight: "100%" }}
                                 />
                             </Col>
                         ))}
