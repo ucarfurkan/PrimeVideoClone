@@ -7,14 +7,6 @@ import 'swiper/css/pagination';
 function MobileMovies() {
     return (
         <>
-            <div className='text-container mt-4'>
-                <span className='movies-text prime-text'>
-                    Prime
-                </span> &nbsp;&nbsp;
-                <span className='movies-text title-text'>
-                    Recommended Movies
-                </span>
-            </div>
             <Swiper
                 spaceBetween={10}
                 slidesPerView={'auto'}

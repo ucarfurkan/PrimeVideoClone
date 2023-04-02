@@ -28,7 +28,7 @@ function DesktopMovies() {
     return (
         <Carousel
             interval={null}
-            className="movie-carousel mt-5 d-flex just"
+            className="movie-carousel"
             controls={items.length > 1}
             activeIndex={currentIndex}
             onSelect={handleSlide}
