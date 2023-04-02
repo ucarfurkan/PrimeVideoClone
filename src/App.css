@@ -337,10 +337,18 @@ body {
     letter-spacing: 0.35px;
   }
 
+  .movie-col:hover {
+    transform: scale(1.0);
+  }  
+
+  .swiper-slide{
+    margin: 0 0.35rem;
+  }
+
   .movie-col>img {
     border-radius: 1rem;
-    width: 198px !important;
-    max-height: 111px !important;
+    width: 12.375rem !important;
+    max-height: 6.9375rem !important;
     object-fit: cover !important;
   }
 }
