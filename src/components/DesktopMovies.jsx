@@ -1,16 +1,15 @@
 import { useState } from "react"
-import { data } from '../data';
 import { Carousel, Row, Col } from 'react-bootstrap';
 
-function DesktopMovies() {
+function DesktopMovies(props) {
+    const data = props.datas;
+
     const images = data.map(item => item.spotlightImgPath);
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [itemsPerSlide, setItemsPerSlide] = useState(5); // new state variable
-
-
+    const [itemsPerSlide, setItemsPerSlide] = useState(5);
 
     const items = images.reduce((resultArray, item, index) => {
-        const chunkIndex = Math.floor(index / itemsPerSlide); // use state value
+        const chunkIndex = Math.floor(index / itemsPerSlide);
 
         if (!resultArray[chunkIndex]) {
             resultArray[chunkIndex] = [];
@@ -28,7 +27,7 @@ function DesktopMovies() {
     return (
         <Carousel
             interval={null}
-            className="movie-carousel"
+            className="movie-carousel d-flex align-items-center"
             controls={items.length > 1}
             activeIndex={currentIndex}
             onSelect={handleSlide}

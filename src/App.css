@@ -209,6 +209,8 @@ body {
   width: 15rem;
   height: 10rem;
   transition: all 0.3s ease-out;
+  align-items: center;
+  display: flex;
 }
 
 .movie-col:hover {
@@ -300,6 +302,7 @@ body {
 
   .swiper {
     margin-left: 1rem !important;
+    display: none;
   }
 
   .swiper-slide{

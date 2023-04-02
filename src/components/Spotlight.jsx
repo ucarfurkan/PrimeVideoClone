@@ -2,12 +2,11 @@ import { useState, useEffect } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { BsCheckCircleFill } from "react-icons/bs"
 import { FaPlay, FaInfo } from 'react-icons/fa';
-import { data } from '../data';
 
 
-function Spotlight() {
+function Spotlight(props) {
+    const data = props.datas;
     const [index, setIndex] = useState(0);
-
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
@@ -23,7 +22,6 @@ function Spotlight() {
 
     function getSpotlights() {
         const spotlightData = data.filter(x => x.isSpotlight);
-
         return spotlightData.map(x => (
             <Carousel.Item key={x.title}>
                 <div className='poster-container'>

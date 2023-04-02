@@ -1,13 +1,11 @@
-import { data } from '../data';
 import { useState, useEffect } from "react"
 import DesktopMovies from './DesktopMovies';
 import MobileMovies from './MobileMovies';
+import { recommendTv } from "../helper";
 
 
-function MyCarousel() {
+function Movies(props) {
     const [isMobile, setIsMobile] = useState(false);
-    const datas = data.map(item => item)
-    console.log(datas);
 
     useEffect(() => {
         function handleResize() {
@@ -19,6 +17,8 @@ function MyCarousel() {
 
         return () => window.removeEventListener("resize", handleResize);
     }, []);
+    
+
 
     return (
         <>
@@ -27,12 +27,13 @@ function MyCarousel() {
                     Prime
                 </span> &nbsp;&nbsp;
                 <span className='movies-text title-text'>
-                    Recommended Movies
+                    Recommended TV
                 </span>
             </div>
 
-            {isMobile ? <MobileMovies /> : <DesktopMovies />}
-        </>);
+            {isMobile ? <MobileMovies datas={props.datas} /> : <DesktopMovies datas={props.datas} />}
+        </>
+    );
 }
 
-export default MyCarousel;
+export default Movies;
