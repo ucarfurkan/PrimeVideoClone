@@ -36,25 +36,25 @@ export const data = [
         spotlightImgPath: "./images/The Marvelous Mrs. Maisel.jpg"
     },
     {
-        id:6,
+        id:7,
         title: "Weekend",
         isSpotlight: false,
         spotlightImgPath: "./images/The Marvelous Mrs. Maisel.jpg"
     },
     {
-        id:1,
+        id:8,
         title: "The Boys",
         isSpotlight: true,
         spotlightImgPath: "./images/The Boys.jpg"
     },
     {
-        id:2,
+        id:9,
         title: "Ghostbusters",
         isSpotlight: true,
         spotlightImgPath: "./images/Ghostbusters.jpg"
     },
     {
-        id:3,
+        id:10,
         title: "The Marvelous Mrs. Maisel",
         isSpotlight: true,
         spotlightImgPath: "./images/The Marvelous Mrs. Maisel.jpg"

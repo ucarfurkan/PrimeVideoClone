@@ -169,7 +169,7 @@ body {
 
 /* Movies */
 
-.movie-carousel > .carousel-indicators{
+.movie-carousel>.carousel-indicators {
   display: none;
 }
 
@@ -188,12 +188,48 @@ body {
   margin: auto !important;
 }
 
-.movie-carousel{
+.movie-carousel {
   margin-right: 0 !important;
   margin-left: 0 !important;
 }
 
-.movie-col > img {
+.movie-carousel>.carousel-inner {
+  padding: 2rem 0;
+}
+
+.movie-carousel .carousel-control-next {
+  margin-right: 2rem;
+  width: 2rem;
+  height: 2rem;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.movie-carousel .carousel-control-prev {
+  margin-left: 2rem;
+  width: 2rem;
+  height: 2rem;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.movie-col {
+  cursor: pointer;
+  padding: 0;
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+  transition: all 0.3s ease-out;
+}
+
+.movie-col:hover {
+  transform: scale(1.2);
+  position: relative;
+  z-index: 1;
+}
+
+.movie-col>img {
   border-radius: 1rem;
 }
 
@@ -254,4 +290,42 @@ body {
   .carousel-control-prev-icon {
     display: none;
   }
+
+  .swiper {
+    margin-left: 1rem !important;
+  }
+
+  .swiper-slide{
+    width: 55% !important;
+  }
+
+  .swiper-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 1rem;
+  }
+  
+  .swiper-button-next, .swiper-button-prev {
+    display: none !important;
+  }
+
+  .text-container{
+    margin-left: 1rem;
+  }
+
+  .movies-text {
+    font-size: 1.15rem;
+    letter-spacing: 0.35px;
+    font-weight: bold;
+  }
+
+  .prime-text{
+    color: #00d1ff;
+  }
+
+  .title-text{
+    color: #fff;
+  }
+
 }

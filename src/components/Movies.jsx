@@ -1,36 +1,26 @@
-import { Carousel, Row, Col } from 'react-bootstrap';
 import { data } from '../data';
+import { useState, useEffect } from "react"
+import DesktopMovies from './DesktopMovies';
+import MobileMovies from './MobileMovies';
+
 
 function MyCarousel() {
-    const images = data.map(item => item.spotlightImgPath);
+    const [isMobile, setIsMobile] = useState(false);
+    const datas = data.map(item => item)
+    console.log(datas);
 
-    const items = images.reduce((resultArray, item, index) => {
-        const chunkIndex = Math.floor(index / 5);
-
-        if (!resultArray[chunkIndex]) {
-            resultArray[chunkIndex] = []; // start a new chunk
+    useEffect(() => {
+        function handleResize() {
+            setIsMobile(window.innerWidth <= 768);
         }
 
-        resultArray[chunkIndex].push(item);
+        window.addEventListener("resize", handleResize);
+        handleResize();
 
-        return resultArray;
+        return () => window.removeEventListener("resize", handleResize);
     }, []);
 
-    return (
-        <Carousel interval={null} className='movie-carousel mt-5' controls={items.length > 1}>
-            {items.map((group, index) => (
-                <Carousel.Item key={index}>
-                    <Row className='justify-content-center movie-row'>
-                        {group.map((image, index) => (
-                            <Col md={2} key={index} className='movie-col'>
-                                <img src={image} alt={`Image ${index + 1}`} style={{ maxWidth: '100%', maxHeight: '100%' }} />
-                            </Col>
-                        ))}
-                    </Row>
-                </Carousel.Item>
-            ))}
-        </Carousel>
-    );
+    return (isMobile ? <MobileMovies /> : <DesktopMovies/>);
 }
 
 export default MyCarousel;
