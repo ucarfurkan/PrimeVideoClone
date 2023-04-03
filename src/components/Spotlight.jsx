@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { BsCheckCircleFill } from "react-icons/bs"
 import { FaPlay, FaInfo } from 'react-icons/fa';
+import { Link } from "react-router-dom"
 
 
 function Spotlight(props) {
@@ -40,11 +41,13 @@ function Spotlight(props) {
                             <div className="overlay"></div>
                         </>
                     )}
-                    <img
-                        className="d-block w-100 poster"
-                        src={x.spotlightImgPath}
-                        alt={x.title}
-                    />
+                    <Link to={`/movies/${x.title}`}>
+                        <img
+                            className="d-block w-100 poster"
+                            src={x.spotlightImgPath}
+                            alt={x.title}
+                        />
+                    </Link>
                 </div>
             </Carousel.Item>
         ));

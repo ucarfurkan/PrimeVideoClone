@@ -1,32 +1,25 @@
 import './App.css';
-import { useState, useEffect } from "react"
-import _Navbar from './components/Navbar';
-import Spotlight from './components/Spotlight';
-import Movies from './components/Movies';
-import Footer from "./components/Footer"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Main from './components/Main';
+import MovieDetails from "./components/MovieDetails";
+import Layout from "./components/Layout"
 
 function App() {
-  const [datas, setDatas] = useState([]);
-
-
-  useEffect(() => {
-    fetch('./data.json')
-      .then(response => response.json())
-      .then(data => setDatas(data.data));
-  }, []);
-
   return (
     (
-      Boolean(datas.length) && <div className="App">
-        <_Navbar />
-        <div>
-          <Spotlight datas={datas} />
-          <div className='justify-content-center'>
-            <Movies datas={datas} />
-          </div>
-          <Footer />
-        </div>
-      </div>
+      <>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<Main />} />
+              <Route path="movies">
+                <Route path=":movieName" element={<MovieDetails/>} />
+              </Route>
+            </Route>
+          </Routes>
+        </BrowserRouter>
+
+      </>
     )
   );
 }

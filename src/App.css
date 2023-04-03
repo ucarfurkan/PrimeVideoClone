@@ -271,6 +271,9 @@ body {
   text-decoration: none !important;
 }
 
+.flickity-enabled{
+  left: 0 !important;
+}
 
 @media (min-width: 769px) and (max-width: 992px) {
   .swiper-slidex {
