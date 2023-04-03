@@ -1,5 +1,5 @@
 import React from 'react';
-import Flickity from 'flickity';
+import { Link } from "react-router-dom"
 import 'flickity/dist/flickity.min.css';
 import FlickityComponent from 'react-flickity-component';
 
@@ -19,9 +19,11 @@ function MobileMoviesDemo(props) {
                 {data.map((movie, index) => {
                     const leftPosition = index * 110 + '%';
                     return (
-                        <div key={movie.id} className={'swiper-slidex'}>
-                            <img src={movie.spotlightImgPath}></img>
-                        </div>
+                        <Link to={`/movies/${movie.title}`} state={{ movie }}>
+                            <div key={movie.id} className={'swiper-slidex'}>
+                                <img src={movie.spotlightImgPath}></img>
+                            </div>
+                        </Link>
                     );
                 })}
             </FlickityComponent>

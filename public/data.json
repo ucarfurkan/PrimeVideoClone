@@ -9,7 +9,8 @@
             ],
             "isSpotlight": true,
             "spotlightImgPath": "./images/Ghostbusters.jpg",
-            "award": false
+            "award": false,
+            "description": "Welcome to the world of 'Ghostbusters,' the beloved comedy franchise that has captured the hearts of audiences for over 35 years. The original 1984 film follows a group of eccentric scientists who start a business to capture and contain ghosts haunting New York City. Since then, 'Ghostbusters' has become a cultural phenomenon, spawning a sequel, an animated TV series, comic books, video games, and a 2016 all-female reboot. With its iconic characters, memorable catchphrases, and supernatural hijinks, 'Ghostbusters' remains a cherished part of pop culture history. Get ready to believe us - watch 'Ghostbusters' now on Amazon Prime Video."
         },
         {
             "id": 2,
@@ -20,7 +21,8 @@
             ],
             "isSpotlight": true,
             "spotlightImgPath": "./images/The Boys.jpg",
-            "award": false
+            "award": false,
+            "description": "Welcome to 'The Boys,' the acclaimed Amazon Prime Original series based on the comic book of the same name by Garth Ennis and Darick Robertson. The show takes place in a world where superheroes are celebrities, but also deeply flawed and often corrupt. The series follows a group of vigilantes, known as 'The Boys,' as they seek to expose and take down these superpowered beings who abuse their abilities and influence. With a talented cast, explosive action, and biting social commentary, 'The Boys' has captivated audiences and critics alike, cementing its status as one of the most thrilling and provocative shows on television. Watch now on Amazon Prime Video."
         },
         {
             "id": 3,
@@ -31,7 +33,8 @@
             ],
             "isSpotlight": false,
             "spotlightImgPath": "./images/The Marvelous Mrs. Maisel.jpg",
-            "award": true
+            "award": true,
+            "description": "Step into the dazzling world of 'The Marvelous Mrs. Maisel' the Emmy-winning Amazon Prime Original series that transports viewers back to the glamorous and tumultuous 1950s. The show follows Midge Maisel, a housewife with a knack for comedy who discovers her true calling as a stand-up comedian after her husband leaves her. Created by the acclaimed duo of Amy Sherman-Palladino and Daniel Palladino, 'The Marvelous Mrs. Maisel' boasts stunning cinematography, lavish costumes, and sharp, fast-paced dialogue that captures the spirit of the era. With a talented ensemble cast led by Rachel Brosnahan, Tony Shalhoub, and Alex Borstein, 'The Marvelous Mrs. Maisel' is a must-see for anyone who loves smart, sophisticated, and stylish television. Stream all seasons now on Amazon Prime Video."
         },
         {
             "id": 4,
@@ -42,7 +45,8 @@
             ],
             "isSpotlight": true,
             "spotlightImgPath": "./images/The Handmaid's Tale.jpg",
-            "award": true
+            "award": true,
+            "description": "Welcome to the chilling world of 'he Handmaid's Tale,' the award-winning Amazon Prime Original series based on Margaret Atwood's iconic novel. Set in a dystopian future where a totalitarian regime has taken over the United States, the show follows Offred, a woman who is forced into sexual servitude as a 'handmaid' in order to bear children for the ruling elite. With its haunting visuals, powerful performances, and searing social commentary, 'The Handmaid's Tale' has become one of the most acclaimed and relevant shows on television. Starring Elizabeth Moss, Joseph Fiennes, and Ann Dowd, this gripping series will keep you on the edge of your seat from start to finish. Watch now on Amazon Prime Video."
         },
         {
             "id": 5,
@@ -53,7 +57,8 @@
             ],
             "isSpotlight": true,
             "spotlightImgPath": "./images/Fleabag.jpg",
-            "award": false
+            "award": false,
+            "description": "Welcome to the world of 'Fleabag', the critically acclaimed Amazon Prime Original series created by and starring Phoebe Waller-Bridge. The show follows the misadventures of a young woman living in London as she navigates relationships, family, and her own self-destructive tendencies. With its sharp wit, innovative storytelling, and heartbreaking moments of vulnerability, 'Fleabag' has become a beloved cult hit and a defining work of contemporary television. Waller-Bridge's performance is a tour-de-force, and the show's supporting cast, including Olivia Colman, Andrew Scott, and Sian Clifford, bring depth and nuance to their roles. Whether you're looking for a laugh, a cry, or a little bit of both, 'Fleabag' is not to be missed. Stream all seasons now on Amazon Prime Video."
         },
         {
             "id": 6,
@@ -64,7 +69,8 @@
             ],
             "isSpotlight": false,
             "spotlightImgPath": "./images/Goliath.jpg",
-            "award": false
+            "award": false,
+            "description": "Welcome to the world of 'Goliath', the gripping Amazon Prime Original legal drama created by David E. Kelley. The show follows Billy McBride, a washed-up lawyer who takes on a wrongful death lawsuit against a powerful aerospace company, and becomes embroiled in a web of corruption and intrigue that threatens his life and career. With its intense plot twists, complex characters, and outstanding performances, 'Goliath' has been praised for its masterful storytelling and its exploration of the dark side of the American justice system. Starring Billy Bob Thornton, Nina Arianda, and William Hurt, this riveting series will keep you on the edge of your seat. Watch now on Amazon Prime Video."
         },
         {
             "id": 7,
@@ -76,7 +82,8 @@
             ],
             "isSpotlight": false,
             "spotlightImgPath": "./images/Good Omens.jpg",
-            "award": false
+            "award": false,
+            "description": "Welcome to the fantastical world of 'Good Omens', the Amazon Prime Original series based on the beloved novel by Terry Pratchett and Neil Gaiman. The show follows an angel named Aziraphale and a demon named Crowley who team up to prevent the end of the world after the birth of the Antichrist. With its irreverent humor, dazzling special effects, and an all-star cast, 'Good Omens' has become a fan favorite and a testament to the enduring appeal of Pratchett and Gaiman's work. Starring Michael Sheen, David Tennant, Jon Hamm, and Frances McDormand, this imaginative and enchanting series is a must-watch for anyone who loves witty, inventive storytelling. Stream all episodes now on AmazonPrime Video."
         },
         {
             "id": 8,
@@ -88,7 +95,8 @@
             ],
             "isSpotlight": false,
             "spotlightImgPath": "./images/Hanna.jpg",
-            "award": false
+            "award": false,
+            "description": "Welcome to the world of 'Hanna', the Amazon Prime Original series inspired by the 2011 film of the same name. The show follows a young girl named Hanna who possesses incredible fighting skills and becomes embroiled in a deadly conspiracy involving a sinister government agency. With its heart-pumping action, suspenseful plot twists, and stunning international locations, 'Hanna' has become a hit with fans of the spy-thriller genre. Starring Esme Creed-Miles, Mireille Enos, and Joel Kinnaman, the series has been praised for its outstanding performances and its exploration of complex themes such as identity, family, and loyalty. Whether you're a fan of high-octane action or compelling character drama, 'Hanna' is not to be missed. Watch now on Amazon Prime Video."
         },
         {
             "id": 9,
@@ -100,7 +108,8 @@
             ],
             "isSpotlight": false,
             "spotlightImgPath": "./images/Homecoming.jpg",
-            "award": false
+            "award": false,
+            "description": "Welcome to the world of 'Homecoming', the Amazon Prime Original series based on the hit podcast of the same name. The show follows a former caseworker at a secret government facility who starts a new life as a waitress, but soon realizes that her past is catching up with her. With its mind-bending mystery, sleek visual style, and superb performances, 'Homecoming' has become a must-watch for fans of psychological thrillers. Starring Julia Roberts, Stephan James, and Bobby Cannavale, the series is a tour-de-force of storytelling, exploring themes of memory, trauma, and the limits of human consciousness. With a gripping plot and a cast of talented actors, 'Homecoming' will keep you on the edge of your seat. Watch now on Amazon Prime Video."
         },
         {
             "id": 10,
@@ -112,7 +121,8 @@
             ],
             "isSpotlight": false,
             "spotlightImgPath": "./images/Jack Ryan.jpg",
-            "award": false
+            "award": false,
+            "description": "Welcome to the world of 'Jack Ryan', the Amazon Prime Original series based on the iconic character created by Tom Clancy. The show follows a CIA analyst named Jack Ryan who uncovers a sinister terrorist plot that threatens the safety of the United States and its allies. With its intense action sequences, complex geopolitical themes, and outstanding performances, 'Jack Ryan' has become a favorite of fans of espionage and military thrillers. Starring John Krasinski, Wendell Pierce, and Abbie Cornish, the series has been praised for its attention to detail and its exploration of the real-world issues facing intelligence agencies in the modern era. Whether you're a fan of the books or new to the world of Jack Ryan, this series is not to be missed. Watch now on Amazon Prime Video."
         },
         {
             "id": 11,
@@ -124,7 +134,8 @@
             ],
             "isSpotlight": false,
             "spotlightImgPath": "./images/Modern Love.jpg",
-            "award": false
+            "award": false,
+            "description": "Welcome to the heartwarming world of 'Modern Love', the Amazon Prime Original series inspired by the popular New York Times column. The show features a collection of romantic stories that explore the complexities of love and relationships in the modern world. With its talented cast, including Anne Hathaway, Dev Patel, and Andrew Scott, and its poignant, bittersweet tone, 'Modern Love' has become a favorite among fans of romantic dramas. Each episode tells a different story, showcasing the diversity of human experiences and the many different forms that love can take. From heartwarming tales of second chances to devastating stories of loss, 'Modern Love' will tug at your heartstrings and leave you feeling uplifted. Stream all episodes now on Amazon Prime Video."
         },
         {
             "id": 12,
@@ -136,7 +147,8 @@
             ],
             "isSpotlight": true,
             "spotlightImgPath": "./images/Mozart in the Jungle.jpg",
-            "award": true
+            "award": true,
+            "description": "Welcome to the world of 'Mozart in the' Jungle, the Amazon Prime Original series that takes you behind the scenes of the classical music world. The show follows a group of talented musicians and their eccentric conductor as they navigate the high-stakes world of professional orchestras in New York City. With its vibrant characters, beautiful musical performances, and engaging storytelling, 'Mozart in the Jungle' has become a favorite among fans of music-themed dramas. Starring Gael García Bernal, Lola Kirke, and Bernadette Peters, the series has been praised for its authenticity and its exploration of the many challenges facing artists in the 21st century. Whether you're a music lover or just looking for a unique and entertaining series, 'Mozart in the Jungle' is sure to strike a chord. Stream all episodes now on Amazon Prime Video."
         },
         {
             "id": 13,
@@ -148,7 +160,8 @@
             ],
             "isSpotlight": false,
             "spotlightImgPath": "./images/Patriot.jpg",
-            "award": false
+            "award": false,
+            "description": "Welcome to the world of 'Patriot', the Amazon Prime Original series that'defie' easy categorization. The show follows an intelligence officer named John Tavner who is tasked with preventing Iran from obtaining nuclear weapons. With its unique blend of dark comedy, espionage, and family drama, 'Patriot' has become a favorite among fans of offbeat and unconventional series. Starring Michael Dorman, Terry O'Quinn, and Kurtwood Smith, the series is a masterclass in character-driven storytelling, exploring the psychological toll that espionage and secrecy can take on individuals and their relationships. With its witty dialogue, inventive plot twists, and stunning cinematography, 'Patriot' is a must-watch for anyone looking for a fresh and unpredictable series. Stream all episodes now on Amazon Prime Video."
         },
         {
             "id": 14,
@@ -160,7 +173,8 @@
             ],
             "isSpotlight": true,
             "spotlightImgPath": "./images/Sneaky Pete.png",
-            "award": true
+            "award": true,
+            "description": "Welcome to the world of 'Sneaky Pete', the Amazon Prime Original series that combines high-stakes crime drama with clever cons and family dynamics. The show follows Marius, a con man who assumes the identity of his former cellmate, Pete, to avoid the wrath of a dangerous gangster. With its sharp writing, gripping plot twists, and outstanding performances, 'Sneaky Pete has' become a fan favorite among lovers of heist and crime dramas. Starring Giovanni Ribisi, Bryan Cranston, and Margo Martindale, the series is a thrilling rollercoaster ride that keeps viewers on the edge of their seats. With its intricate plot, complex characters, and stylish visuals, 'Sneaky Pete is' a must-watch for anyone looking for a fresh and exciting series. Stream all episodes now on Amazon Prime Video."
         },
         {
             "id": 15,
@@ -172,7 +186,8 @@
                 "Drama",
                 "Historical Fiction"
             ],
-            "award": true
+            "award": true,
+            "description": "Welcome to the world of 'The Crown', the critically acclaimed Amazon Prime Original series that chronicles the reign of Queen Elizabeth II from her ascension to the throne in 1952 to the present day. With its stunning attention to historical detail, gorgeous cinematography, and outstanding performances, 'The Crown' has become a favorite among fans of historical dramas. Starring Claire Foy, Olivia Colman, and Helena Bonham Carter, the series explores the complex relationships and political intrigue behind one of the most iconic monarchies in the world. With its expertly crafted scripts and immersive production design, 'The Crown' offers a fascinating glimpse into the personal and public lives of the British royal family. Whether you're a history buff or simply looking for a captivating and well-crafted series, 'The Crown' is not to be missed. Stream all episodes now on AmazonPrime Video."
         },
         {
             "id": 16,
@@ -184,7 +199,8 @@
                 "Drama",
                 "Alternate History"
             ],
-            "award": false
+            "award": false,
+            "description": "Welcome to the world of 'The Man in the High Castle', the Amazon Prime Original series that imagines an alternate reality in which the Axis powers won World War II and divided the United States into two spheres of influence: the Greater Nazi Reich and the Japanese Pacific States. With its complex plot, morally ambiguous characters, and stunning visual effects, 'The Man in the High Castle' has become a fan favorite among lovers of science fiction and political dramas. Starring Alexa Davalos, Rufus Sewell, and Luke Kleintank, the series explores themes of power, resistance, and the consequences of war on both a personal and societal level. With its thought-provoking premise and gripping storytelling, 'The Man in the High Castle' is a must-watch for anyone looking for a unique and challenging series. Stream all episodes now on Amazon Prime Video."
         }
     ]
 }

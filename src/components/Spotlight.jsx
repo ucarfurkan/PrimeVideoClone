@@ -23,13 +23,13 @@ function Spotlight(props) {
 
     function getSpotlights() {
         const spotlightData = data.filter(x => x.isSpotlight);
-        return spotlightData.map(x => (
-            <Carousel.Item key={x.title}>
+        return spotlightData.map(movie => (
+            <Carousel.Item key={movie.title}>
                 <div className='poster-container'>
                     {!isMobile && (
                         <>
                             <div className='item-desc'>
-                                <div className='item-title'>{x.title}</div><br />
+                                <div className='item-title'>{movie.title}</div><br />
                                 <div className='iw-prime'><BsCheckCircleFill fill="cyan" />  Included with Prime</div>
                                 <div className='item-button-group d-flex align-items-center'>
                                     <div className='play-button'><FaPlay /></div>
@@ -41,11 +41,11 @@ function Spotlight(props) {
                             <div className="overlay"></div>
                         </>
                     )}
-                    <Link to={`/movies/${x.title}`}>
+                    <Link to={`/movies/${movie.title}`} state={{ movie }}>
                         <img
                             className="d-block w-100 poster"
-                            src={x.spotlightImgPath}
-                            alt={x.title}
+                            src={movie.spotlightImgPath}
+                            alt={movie.title}
                         />
                     </Link>
                 </div>
