@@ -13,7 +13,7 @@ function MobileMoviesDemo(props) {
         <>
             <FlickityComponent
                 key={data.length}
-                className='mt-2'
+                className=''
                 options={flickityOptions}
             >
                 {data.map((movie, index) => {

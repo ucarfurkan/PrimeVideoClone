@@ -38,7 +38,7 @@ function Movies(props) {
     function getRecommended() {
         return (
             <div className="recommended">
-                <div className='text-container mt-4 recommend'>
+                <div className='text-container mt-3 recommend'>
                     <span className='movies-text prime-text'>
                         Prime
                     </span> &nbsp;&nbsp;
@@ -55,7 +55,7 @@ function Movies(props) {
     function getAwardWinners(){
         return (
             <div className="award-winners">
-                <div className='text-container mt-4'>
+                <div className='text-container mt-3'>
                     <span className='movies-text prime-text'>
                         Prime
                     </span> &nbsp;&nbsp;
