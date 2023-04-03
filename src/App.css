@@ -285,7 +285,7 @@ body {
   }
 
   .poster {
-    height: 30%;
+    max-height: 10.9375rem
   }
 
   .carousel {
@@ -359,6 +359,12 @@ body {
 
   .flickity-page-dots {
     display: none !important;
+  }
+
+  .carousel-item > img {
+    width: 19.4375rem !important;
+    max-height: 10.9375rem !important;
+    object-fit: cover !important;
   }
 
 }
