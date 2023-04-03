@@ -275,12 +275,6 @@ body {
     display: none !important;
   }
 
-  .carousel-item > img {
-    width: 19.4375rem !important;
-    max-height: 10.9375rem !important;
-    object-fit: cover !important;
-  }
-
 }
 
 @media (max-width: 768px) {
@@ -379,7 +373,6 @@ body {
     justify-content: center;
   }
 
-
   .swiper-slidex>img {
     margin-right: 10px;
     border-radius: 1rem;
@@ -394,12 +387,6 @@ body {
 
   .flickity-page-dots {
     display: none !important;
-  }
-
-  .carousel-item > img {
-    width: 19.4375rem !important;
-    max-height: 10.9375rem !important;
-    object-fit: cover !important;
   }
 
 
