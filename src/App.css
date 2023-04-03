@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  width: 60%;
+  width: 80%;
   padding: 0;
 }
 
@@ -15,6 +15,16 @@ body {
   background-color: #00050d;
   font-size: 1.1rem;
   padding: 0;
+}
+
+
+
+.navbar-brand{
+  width: 20%;
+}
+
+.navbar-collapse{
+  width: 40%;
 }
 
 .user-icon {
@@ -245,6 +255,33 @@ body {
   color: #fff;
 }
 
+@media (min-width: 769px) and (max-width: 992px) {
+  .swiper-slidex {
+    width: 30%;
+  }
+
+  .swiper-slidex>img {
+    border-radius: 1rem;
+    width: 12.375rem;
+    max-height: 6.9375rem !important;
+    object-fit: cover !important;
+  }
+
+  .flickity-button {
+    display: none !important;
+  }
+
+  .flickity-page-dots {
+    display: none !important;
+  }
+
+  .carousel-item > img {
+    width: 19.4375rem !important;
+    max-height: 10.9375rem !important;
+    object-fit: cover !important;
+  }
+
+}
 
 @media (max-width: 768px) {
   .container {
@@ -304,10 +341,6 @@ body {
     margin-right: 0.3rem !important;
   }
 
-  .swiper-slidex {
-    width: 50%;
-  }
-
   .swiper-slide img {
     max-width: 100%;
     max-height: 100%;
@@ -341,7 +374,9 @@ body {
 
   /* Demo Test */
   .swiper-slidex {
-    width: 60%;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
   }
 
 
@@ -366,5 +401,8 @@ body {
     max-height: 10.9375rem !important;
     object-fit: cover !important;
   }
+
+
+  
 
 }

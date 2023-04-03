@@ -15,7 +15,7 @@ function Movies(props) {
     
     useEffect(() => {
         function handleResize() {
-            setIsMobile(window.innerWidth <= 768);
+            setIsMobile(window.innerWidth <= 992);
         }
 
         window.addEventListener("resize", handleResize);
@@ -26,7 +26,7 @@ function Movies(props) {
 
     useEffect(() => {
         const randomFive = [];
-        while (randomFive.length < 5) {
+        while (randomFive.length < 10) {
             const randomIndex = Math.floor(Math.random() * tvSeries.length);
             if (!randomFive.includes(tvSeries[randomIndex])) {
                 randomFive.push(tvSeries[randomIndex]);

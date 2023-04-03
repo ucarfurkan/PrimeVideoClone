@@ -60,12 +60,12 @@ function _Navbar() {
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-                <Nav className="mx-auto">
+                <Nav className="search-container">
                     <Nav.Link>
                         <HiSearch className='search-icon' />
                     </Nav.Link>
                 </Nav>
-                <Nav className="mx-auto">
+                <Nav className="user-container">
                     <Nav.Link>
                         <span className='name-of-user'>Furkan Uçar</span>
                         <HiUserCircle fill='white' className='user-icon' />
