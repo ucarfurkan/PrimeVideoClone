@@ -3,6 +3,7 @@ import { useState, useEffect } from "react"
 import _Navbar from './components/Navbar';
 import Spotlight from './components/Spotlight';
 import Movies from './components/Movies';
+import Footer from "./components/Footer"
 
 function App() {
   const [datas, setDatas] = useState([]);
@@ -23,6 +24,7 @@ function App() {
           <div className='justify-content-center'>
             <Movies datas={datas} />
           </div>
+          <Footer />
         </div>
       </div>
     )
