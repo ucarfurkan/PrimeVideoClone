@@ -245,10 +245,6 @@ body {
   color: #fff;
 }
 
-.recommended>.carousel-control-next-icon {
-  display: block;
-}
-
 
 @media (max-width: 768px) {
   .container {
@@ -302,11 +298,6 @@ body {
     border-radius: 50%;
   }
 
-  .carousel-control-next-icon,
-  .carousel-control-prev-icon {
-    display: none;
-  }
-
   .swiper {
     margin-left: 1rem !important;
     display: none;
@@ -322,11 +313,6 @@ body {
     max-height: 100%;
     object-fit: contain;
     border-radius: 1rem;
-  }
-
-  .swiper-button-next,
-  .swiper-button-prev {
-    display: none !important;
   }
 
   .text-container {

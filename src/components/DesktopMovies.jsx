@@ -30,8 +30,8 @@ function DesktopMovies(props) {
             className="movie-carousel d-flex align-items-center"
             controls={items.length > 1}
             activeIndex={currentIndex}
-            onSelect={handleSlide}
-        >
+            onSelect={handleSlide}>
+                
             {items.map((group, index) => (
                 <Carousel.Item key={index}>
                     <Row className="justify-content-center movie-row">

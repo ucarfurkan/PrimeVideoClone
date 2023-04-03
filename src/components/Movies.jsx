@@ -25,14 +25,14 @@ function Movies(props) {
     }, []);
 
     useEffect(() => {
-        const randomTen = [];
-        while (randomTen.length < 10) {
+        const randomFive = [];
+        while (randomFive.length < 5) {
             const randomIndex = Math.floor(Math.random() * tvSeries.length);
-            if (!randomTen.includes(tvSeries[randomIndex])) {
-                randomTen.push(tvSeries[randomIndex]);
+            if (!randomFive.includes(tvSeries[randomIndex])) {
+                randomFive.push(tvSeries[randomIndex]);
             }
         }
-        setRecommendedTv(randomTen)
+        setRecommendedTv(randomFive)
     }, [])
 
     function getRecommended() {
