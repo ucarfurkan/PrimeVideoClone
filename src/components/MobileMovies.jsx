@@ -9,7 +9,8 @@ function MobileMovies(props) {
         <>
             <Swiper
                 spaceBetween={10}
-                slidesPerView={'auto'}
+                slidesPerView={1}
+                focusableElements= {false}
                 navigation
                 pagination={{ clickable: true }}
                 className='mt-2'

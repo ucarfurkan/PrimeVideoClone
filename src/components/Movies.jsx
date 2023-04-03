@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react"
 import DesktopMovies from './DesktopMovies';
 import MobileMovies from './MobileMovies';
+import MobileMoviesDemo from "./MobileMovieDemo";
+
 
 
 function Movies(props) {
@@ -45,7 +47,7 @@ function Movies(props) {
                     </span>
                 </div>
 
-                {isMobile ? <MobileMovies datas={recommendedTv} /> : <DesktopMovies datas={recommendedTv} />}
+                {isMobile ? <MobileMoviesDemo datas={recommendedTv} /> : <DesktopMovies datas={recommendedTv} />}
             </div>
         )
     }
@@ -62,7 +64,7 @@ function Movies(props) {
                     </span>
                 </div>
 
-                {isMobile ? <MobileMovies datas={awardWinners} /> : <DesktopMovies datas={awardWinners} />}
+                {isMobile ? <MobileMoviesDemo datas={awardWinners} /> : <DesktopMovies datas={awardWinners} />}
             </div>
         )
     }
