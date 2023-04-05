@@ -37,7 +37,7 @@ function DesktopMovies(props) {
           <Row className="justify-content-center movie-row">
             {slideMovies.map((movie, movieIndex) => (
               <Col md={2} key={slideIndex * itemsPerSlide + movieIndex} className="movie-col">
-                <Link to={`/movies/${movie.title}`} state={{ movie }}>
+                <Link to={`/content/${movie.title}`} state={{ movie }}>
                   <img src={movie.spotlightImgPath} alt={`Image ${slideIndex * itemsPerSlide + movieIndex + 1}`} />
                 </Link>
               </Col>

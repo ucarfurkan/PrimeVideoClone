@@ -54,7 +54,7 @@ function Movies(props) {
 
     function getAwardWinners(){
         return (
-            <div className="award-winners">
+            <div className="award-winners mb-5">
                 <div className='text-container mt-3'>
                     <span className='movies-text prime-text'>
                         Prime

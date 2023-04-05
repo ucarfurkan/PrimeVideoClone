@@ -17,9 +17,8 @@ function MobileMoviesDemo(props) {
                 options={flickityOptions}
             >
                 {data.map((movie, index) => {
-                    const leftPosition = index * 110 + '%';
                     return (
-                        <Link to={`/movies/${movie.title}`} state={{ movie }}>
+                        <Link to={`/content/${movie.title}`} state={{ movie }}>
                             <div key={movie.id} className={'swiper-slidex'}>
                                 <img src={movie.spotlightImgPath}></img>
                             </div>

@@ -2,12 +2,13 @@ import { useLocation } from "react-router-dom"
 import { FaPlay, FaInfo } from 'react-icons/fa';
 import { BsCheckCircleFill } from "react-icons/bs"
 
-function MovieDetails() {
+function MovieDetailsMobile() {
     const location = useLocation();
     console.log(location)
     const movie = location.state.movie;
     const movieImgPath = location.state.movie.spotlightImgPath.replace(/ /g, '%20').slice(1);
 
+    console.log(movieImgPath)
     return (
         <>
             <div className="movie-details d-flex align-items-center">
@@ -34,4 +35,4 @@ function MovieDetails() {
     )
 }
 
-export default MovieDetails;
+export default MovieDetailsMobile;

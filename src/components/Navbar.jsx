@@ -32,12 +32,12 @@ function _Navbar() {
     }
 
     return (
-        <Navbar collapseOnSelect expand="lg" variant="dark">
+        <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
             <Container>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav">
                     <Navbar.Text>Menu <HiChevronDown /></Navbar.Text>
                 </Navbar.Toggle>
-                <Navbar.Brand href="#home">prime video</Navbar.Brand>
+                <Navbar.Brand href="..">prime video</Navbar.Brand>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mx-auto">
                         <Nav.Link id="active">

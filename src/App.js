@@ -12,8 +12,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<Main />} />
-              <Route path="movies">
-                <Route path=":movieName" element={<MovieDetails/>} />
+              <Route path="content">
+                <Route path=":contentName" element={<MovieDetails/>} />
               </Route>
             </Route>
           </Routes>

@@ -41,7 +41,7 @@ function Spotlight(props) {
                             <div className="overlay"></div>
                         </>
                     )}
-                    <Link to={`/movies/${movie.title}`} state={{ movie }}>
+                    <Link to={`/content/${movie.title}`} state={{ movie }}>
                         <img
                             className="d-block w-100 poster"
                             src={movie.spotlightImgPath}
