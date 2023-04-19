@@ -4,7 +4,6 @@ import { BsCheckCircleFill } from "react-icons/bs"
 
 function MovieDetails() {
     const location = useLocation();
-    console.log(location)
     const movie = location.state.movie;
     const movieImgPath = location.state.movie.spotlightImgPath.replace(/ /g, '%20').slice(1);
 
