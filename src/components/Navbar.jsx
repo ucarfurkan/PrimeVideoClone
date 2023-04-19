@@ -9,6 +9,7 @@ import { BiMoviePlay, BiCameraMovie, BiGridAlt, BiWindows } from "react-icons/bi
 function _Navbar() {
     const [isMobile, setIsMobile] = useState(false);
     const [showDropdown, setShowDropdown] = useState(false);
+    const [showDropdownForMobile, setShowDropdownForMobile] = useState(false);
 
     useEffect(() => {
         function handleResize() {
@@ -29,6 +30,12 @@ function _Navbar() {
 
     const handleMouseLeave = () => {
         setShowDropdown(false);
+    }
+
+    const handleClick = () => {
+        if(isMobile){
+            setShowDropdownForMobile((prev) => !prev);
+        }
     }
 
     return (
@@ -52,9 +59,10 @@ function _Navbar() {
                         <NavDropdown
                             title={isMobile ? <>{<BiGridAlt />} Categories</> : 'Categories'}
                             id="categories-dropdown"
-                            show={showDropdown}
+                            show={isMobile ?  showDropdownForMobile : showDropdown}
                             onMouseEnter={handleMouseEnter}
                             onMouseLeave={handleMouseLeave}
+                            onClick={handleClick}
                         >
                             <NavDropdown.Item href="#">
                                 Action & Adventure
