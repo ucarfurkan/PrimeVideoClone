@@ -526,4 +526,8 @@ body {
     padding-bottom: 5rem;
   }
 
+  .outlet{
+    margin-bottom: 4rem !important;
+  }
+
 }
