@@ -47,7 +47,7 @@ function _Navbar() {
                 <Navbar.Brand href="..">prime video</Navbar.Brand>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mx-auto">
-                        <Nav.Link id="active">
+                        <Nav.Link href="/" id="active">
                             {isMobile && <HiOutlineHome />} Home
                         </Nav.Link>
                         <Nav.Link>
