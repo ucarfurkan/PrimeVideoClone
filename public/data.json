@@ -201,6 +201,58 @@
             ],
             "award": false,
             "description": "Welcome to the world of 'The Man in the High Castle', the Amazon Prime Original series that imagines an alternate reality in which the Axis powers won World War II and divided the United States into two spheres of influence: the Greater Nazi Reich and the Japanese Pacific States. With its complex plot, morally ambiguous characters, and stunning visual effects, 'The Man in the High Castle' has become a fan favorite among lovers of science fiction and political dramas. Starring Alexa Davalos, Rufus Sewell, and Luke Kleintank, the series explores themes of power, resistance, and the consequences of war on both a personal and societal level. With its thought-provoking premise and gripping storytelling, 'The Man in the High Castle' is a must-watch for anyone looking for a unique and challenging series. Stream all episodes now on Amazon Prime Video."
-        }
+        },
+        {
+            "id": 17,
+            "title": "The Big Sick",
+            "isSpotlight": false,
+            "spotlightImgPath": "./images/The Big Sick.jpg",
+            "type": "Movie",
+            "category": [
+                "Comedy",
+                "Romance"
+            ],
+            "award": false,
+            "description": "Based on the real-life romance of writers Kumail Nanjiani and Emily V. Gordon, 'The Big Sick' is a hilarious and heartfelt movie that explores the challenges of love, family, and cultural identity. Starring Kumail Nanjiani and Zoe Kazan, the film follows the ups and downs of their relationship as they navigate the expectations of their respective families and the complexities of cross-cultural dating. Winner of multiple awards, including the 2018 Critics' Choice Award for Best Comedy, 'The Big Sick' is a must-watch for anyone looking for a smart and funny romantic comedy. Stream now on Amazon Prime Video."
+        },
+        {
+            "id": 19,
+            "title": "Sound of Metal",
+            "isSpotlight": false,
+            "spotlightImgPath": "./images/Sound of Metal.jpg",
+            "type": "Movie",
+            "category": [
+                "Drama",
+                "Music"
+            ],
+            "award": false,
+            "description": "Starring Riz Ahmed and Olivia Cooke, 'Sound of Metal' is a powerful and emotional drama that explores the journey of a heavy metal drummer who loses his hearing. As he struggles to come to terms with his new reality and the impact it has on his life and career, he embarks on a journey of self-discovery and finds new meaning in his relationships and his music. Winner of multiple awards, including the 2021 Academy Award for Best Sound, 'Sound of Metal' is a must-watch for anyone looking for a thought-provoking and moving film. Stream now on Amazon Prime Video."
+        },
+        {
+            "id": 20,
+            "title": "One Night in Miami",
+            "isSpotlight": false,
+            "spotlightImgPath": "./images/One Night in Miami.jpg",
+            "type": "Movie",
+            "category": [
+                "Drama",
+                "Historical Fiction"
+            ],
+            "award": false,
+            "description": "Directed by Regina King and based on the play by Kemp Powers, 'One Night in Miami' is a powerful and thought-provoking film that imagines a meeting between four iconic figures of the Civil Rights Movement: Malcolm X, Muhammad Ali, Sam Cooke, and Jim Brown. Starring Kingsley Ben-Adir, Eli Goree, Leslie Odom Jr., and Aldis Hodge, the movie explores the complex issues of race, identity, and activism through the lens of these four remarkable men. Winner of multiple awards, including the 2021 Golden Globe for Best Supporting Actor, 'One Night in Miami' is a must-watch for anyone interested in exploring the history and legacy of the Civil Rights Movement. Stream now on Amazon Prime Video."
+        },
+        {
+            "id": 21,
+            "title": "Knives Out",
+            "isSpotlight": false,
+            "spotlightImgPath": "./images/Knives Out.jpg",
+            "type": "Movie",
+            "category": [
+            "Mystery",
+            "Comedy"
+            ],
+            "award": false,
+            "description": "In 'Knives Out', a wealthy family gathers for the 85th birthday of their patriarch, but the celebration takes a deadly turn when the family patriarch is found dead. With an all-star cast including Daniel Craig, Chris Evans, and Ana de Armas, this clever and twisty whodunit will keep you guessing until the very end. Winner of the 2020 Golden Globe for Best Motion Picture - Musical or Comedy, 'Knives Out' is a must-watch for fans of suspense and humor. Stream now on Amazon Prime Video."
+            }
     ]
 }

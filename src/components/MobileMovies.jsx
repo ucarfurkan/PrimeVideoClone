@@ -1,35 +1,33 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import React from 'react';
 import { Link } from "react-router-dom"
+import 'flickity/dist/flickity.min.css';
+import FlickityComponent from 'react-flickity-component';
 
 function MobileMovies(props) {
     const data = props.datas;
+
+    const flickityOptions = {
+        freeScroll: true,
+    };
     return (
         <>
-            <Swiper
-                spaceBetween={10}
-                slidesPerView={1}
-                focusableElements={false}
-                navigation
-                pagination={{ clickable: true }}
-                className='mt-2'
+            <FlickityComponent
+                key={data.length}
+                className=''
+                options={flickityOptions}
             >
-                {data.map((movie) => {
-                    console.log(movie)
+                {data.map((movie, index) => {
                     return (
-                        <SwiperSlide key={movie.id}>
-                            <div className='movie-col'>
-                                <Link to={`/movies/${movie.title}`} state={{ movie }}>
-                                    <img src={movie.spotlightImgPath}></img>
-                                </Link>
+                        <Link to={`/content/${movie.title}`} state={{ movie }}>
+                            <div key={movie.id} className={'swiper-slidex'}>
+                                <img src={movie.spotlightImgPath}></img>
                             </div>
-                        </SwiperSlide>)
+                        </Link>
+                    );
                 })}
-            </Swiper>
+            </FlickityComponent>
         </>
-    )
+    );
 }
 
 export default MobileMovies;
