@@ -7,6 +7,7 @@ import MobileMovies from './MobileMovies';
 function Movies(props) {
     const [isMobile, setIsMobile] = useState(false);
     const [recommendedTv, setRecommendedTv] = useState([]);
+    const [comedy, setComedy] = useState([]);
 
     const data = props.datas;
     const tvSeries = data.filter(item => item.type === 'TV series');
@@ -25,14 +26,25 @@ function Movies(props) {
     }, []);
 
     useEffect(() => {
-        const randomFive = [];
-        while (randomFive.length < 10) {
+        const randomTen = [];
+        while (randomTen.length < 10) {
             const randomIndex = Math.floor(Math.random() * tvSeries.length);
-            if (!randomFive.includes(tvSeries[randomIndex]) && tvSeries[randomIndex].type != "Movie") {
-                randomFive.push(tvSeries[randomIndex]);
+            if (!randomTen.includes(tvSeries[randomIndex]) && tvSeries[randomIndex].type != "Movie") {
+                randomTen.push(tvSeries[randomIndex]);
             }
         }
-        setRecommendedTv(randomFive)
+        setRecommendedTv(randomTen)
+    }, [])
+
+    useEffect(() => {
+        const randomFive = [];
+        while (randomFive.length < 5) {
+            const randomIndex = Math.floor(Math.random() * data.length);
+            if (!randomFive.includes(data[randomIndex]) && data[randomIndex].category.includes('Comedy')) {
+                randomFive.push(data[randomIndex]);
+            }
+        }
+        setComedy(randomFive)
     }, [])
 
     function getRecommendedTv() {
@@ -71,7 +83,7 @@ function Movies(props) {
 
     function getMovies() {
         return (
-            <div className="mb-5">
+            <div>
                 <div className='text-container mt-3'>
                     <span className='movies-text prime-text'>
                         Prime
@@ -86,6 +98,23 @@ function Movies(props) {
         )
     }
 
+    function getComedy() {
+        return (
+            <div>
+                <div className='text-container mt-3 recommend'>
+                    <span className='movies-text prime-text'>
+                        Prime
+                    </span> &nbsp;&nbsp;
+                    <span className='movies-text title-text'>
+                        Comedy Time
+                    </span>
+                </div>
+
+                {isMobile ? <MobileMovies datas={comedy} /> : <DesktopMovies datas={comedy} />}
+            </div>
+        )
+    }
+
 
 
     return (
@@ -93,6 +122,7 @@ function Movies(props) {
             {getRecommendedTv()}
             {getAwardWinners()}
             {getMovies()}
+            {getComedy()}
         </>
     );
 }
